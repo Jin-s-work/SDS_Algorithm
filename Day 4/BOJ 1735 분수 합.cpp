@@ -54,6 +54,7 @@ int main(){
     int g = gcd(x, y);
     x = x / g;
     y = y / g;
+    // 생각해보니 각각 gcd(x, y)로 나누어주면 위에서 x가 바뀌어서 안댐.. 바보
     
     
     cout << x << " " << y;
