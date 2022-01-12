@@ -28,6 +28,7 @@ int find(int x){
         return x;
     
     return parent[x] = find(parent[x]);
+    // 경로 압축
 }
 
 void merge(int x, int y){
